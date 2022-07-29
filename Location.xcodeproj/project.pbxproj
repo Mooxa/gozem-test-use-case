@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5E956A2890055000EE6704 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E95692890055000EE6704 /* LoginView.swift */; };
+		FA5E956C2890056200EE6704 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E956B2890056200EE6704 /* LoginViewModel.swift */; };
+		FA5E956E2890056D00EE6704 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E956D2890056D00EE6704 /* User.swift */; };
+		FA5E957228904F9200EE6704 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E957128904F9200EE6704 /* HomeView.swift */; };
+		FA5E957528905E7200EE6704 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E957428905E7200EE6704 /* LocationManager.swift */; };
 		FAA03939288F0E6D00DEF816 /* LocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA03938288F0E6D00DEF816 /* LocationApp.swift */; };
 		FAA0393B288F0E6D00DEF816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0393A288F0E6D00DEF816 /* ContentView.swift */; };
 		FAA0393D288F0E7200DEF816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA0393C288F0E7200DEF816 /* Assets.xcassets */; };
 		FAA03940288F0E7200DEF816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA0393F288F0E7200DEF816 /* Preview Assets.xcassets */; };
+		FAAC652C28919E6B000F44B1 /* DataInformation.json in Resources */ = {isa = PBXBuildFile; fileRef = FAAC652B28919E6B000F44B1 /* DataInformation.json */; };
+		FAAC652E28919F5B000F44B1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC652D28919F5B000F44B1 /* HomeViewModel.swift */; };
+		FAB7673D2893CBF500139DE6 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7673C2893CBF500139DE6 /* SignupView.swift */; };
+		FAC4FED8289121F200A82119 /* MockApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4FED7289121F200A82119 /* MockApi.swift */; };
+		FAC4FEDB289124C000A82119 /* DataInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4FEDA289124C000A82119 /* DataInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA5E95692890055000EE6704 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA5E956B2890056200EE6704 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FA5E956D2890056D00EE6704 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA5E957128904F9200EE6704 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA5E957428905E7200EE6704 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		FAA03935288F0E6D00DEF816 /* Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA03938288F0E6D00DEF816 /* LocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationApp.swift; sourceTree = "<group>"; };
 		FAA0393A288F0E6D00DEF816 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAA0393C288F0E7200DEF816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA0393F288F0E7200DEF816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAAC652B28919E6B000F44B1 /* DataInformation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataInformation.json; sourceTree = "<group>"; };
+		FAAC652D28919F5B000F44B1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FAB7673C2893CBF500139DE6 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		FAC4FED7289121F200A82119 /* MockApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApi.swift; sourceTree = "<group>"; };
+		FAC4FEDA289124C000A82119 /* DataInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA5E9563289004EB00EE6704 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FAB767392893CBC400139DE6 /* Signup */,
+				FA5E956F28904E9100EE6704 /* Home */,
+				FA5E95642890051F00EE6704 /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		FA5E95642890051F00EE6704 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E95682890053F00EE6704 /* Model */,
+				FA5E95672890053600EE6704 /* ViewModel */,
+				FA5E95652890052600EE6704 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA5E95652890052600EE6704 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E95692890055000EE6704 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5E95672890053600EE6704 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E956B2890056200EE6704 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA5E95682890053F00EE6704 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E956D2890056D00EE6704 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5E956F28904E9100EE6704 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E957328905E5800EE6704 /* ViewModel */,
+				FA5E957028904F8300EE6704 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA5E957028904F8300EE6704 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E957128904F9200EE6704 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5E957328905E5800EE6704 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E957428905E7200EE6704 /* LocationManager.swift */,
+				FAAC652D28919F5B000F44B1 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FAA0392C288F0E6D00DEF816 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +141,8 @@
 		FAA03937288F0E6D00DEF816 /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				FAC4FED52891218C00A82119 /* Network */,
+				FA5E9563289004EB00EE6704 /* Feature */,
 				FAA03938288F0E6D00DEF816 /* LocationApp.swift */,
 				FAA0393A288F0E6D00DEF816 /* ContentView.swift */,
 				FAA0393C288F0E7200DEF816 /* Assets.xcassets */,
@@ -65,6 +157,48 @@
 				FAA0393F288F0E7200DEF816 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAAC652A28919E44000F44B1 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC652B28919E6B000F44B1 /* DataInformation.json */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		FAB767392893CBC400139DE6 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7673B2893CBE600139DE6 /* View */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		FAB7673B2893CBE600139DE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7673C2893CBF500139DE6 /* SignupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC4FED52891218C00A82119 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC652A28919E44000F44B1 /* LocalData */,
+				FAC4FED92891229F00A82119 /* Model */,
+				FAC4FED7289121F200A82119 /* MockApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FAC4FED92891229F00A82119 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4FEDA289124C000A82119 /* DataInformation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAC652C28919E6B000F44B1 /* DataInformation.json in Resources */,
 				FAA03940288F0E7200DEF816 /* Preview Assets.xcassets in Resources */,
 				FAA0393D288F0E7200DEF816 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +272,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5E956C2890056200EE6704 /* LoginViewModel.swift in Sources */,
+				FA5E956A2890055000EE6704 /* LoginView.swift in Sources */,
 				FAA0393B288F0E6D00DEF816 /* ContentView.swift in Sources */,
+				FAAC652E28919F5B000F44B1 /* HomeViewModel.swift in Sources */,
+				FA5E957528905E7200EE6704 /* LocationManager.swift in Sources */,
+				FAC4FED8289121F200A82119 /* MockApi.swift in Sources */,
+				FA5E957228904F9200EE6704 /* HomeView.swift in Sources */,
+				FA5E956E2890056D00EE6704 /* User.swift in Sources */,
+				FAC4FEDB289124C000A82119 /* DataInformation.swift in Sources */,
+				FAB7673D2893CBF500139DE6 /* SignupView.swift in Sources */,
 				FAA03939288F0E6D00DEF816 /* LocationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +414,8 @@
 				DEVELOPMENT_TEAM = 3PBAGT949Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Cette App permet de geolocaliser l'utilisateur";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Cette App permet de geolocaliser l'utilisateur";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +445,8 @@
 				DEVELOPMENT_TEAM = 3PBAGT949Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Cette App permet de geolocaliser l'utilisateur";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Cette App permet de geolocaliser l'utilisateur";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
